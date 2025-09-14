@@ -1,6 +1,6 @@
-## User Input Options
+# User Input Options
 
-# User Input I: Steps 1-4 below must be changed to according to a specific dataset on a local computer.
+## User Input I: Steps 1-4 below must be changed to according to a specific dataset on a local computer.
 
 Step 1:  Select the working directory. Indicate where the input file resides. The same folder will be the location for the output files.
 
@@ -10,7 +10,7 @@ Step 3: Name the samples and/or treatments. Please note this analysis is used fo
 
 Step 4: Indicate the relative start time for the assay. For a given day of 24 h, subjective dawn is when the chamber light is turned on during a normal light/dark cycle. For example, if light is on at 7 am, then this time is regarded as the circadian time 0. If a luciferase assay begins at 9 am, the assay time is at the circadian time 2. The user would input 2 as the relative start time. This number must be a whole number and cannot be negative. This will affect the phase reading of the samples.
 
-# User Input II: Options 1-67 can be changed per the user's specific needs.  
+## User Input II: Options 1-67 can be changed per the user's specific needs.  
 
 Option 1: Include graphs. These are luminescence curves, plots for the period, phase, and amplitude per genotype and treatment. 
 
