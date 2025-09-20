@@ -95,19 +95,7 @@ T_NumberLabel <- TRUE
 
 ################
 
-#Option 4: "Shift" the phase values?
-#To get low values or negative values instead of high values, the code can subtract by XX if the value is greater than YY.
-#If you want to shift the phase, type TRUE; if you do not want to, type FALSE.
-shift <- TRUE
-
-#Option 4 additions: What values do you want to use for XX and YY?
-#If shift<-TRUE and phase value n > YY, then n-XX = new phase value.
-XX <- 24
-YY <- 22
-
-################
-
-#Option 5: Round your time points?
+#Option 4: Round your time points?
 #If yes, type TRUE. If no, type FALSE.
 #ARSER analysis can only be run if the time series is consistent. If it is not, try rounding to the nearest hour.
 #Not advisable if times are off by more than a couple of minutes from the hour interval!
@@ -115,10 +103,9 @@ roundTP <- TRUE
 
 ################
 
-#Option 6: Does your data list wells by A1,A2,A3... OR by A1,B1,C1...?
+#Option 5: Does your data list wells by A1,A2,A3... OR by A1,B1,C1...?
 #If your data lists wells by A1,A2,A3.... then type TRUE. Otherwise, type FALSE.
 orientation <- TRUE
-
 
 #################################
 
