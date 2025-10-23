@@ -1,4 +1,4 @@
-#Version 2025.September.05.
+#Version 2025.October.23.
 #Luminescence (Clock) Assay. SIMPLIFIED ARSER. With ANOVA and Tukey HSD.
 
 
